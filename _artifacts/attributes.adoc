@@ -1,0 +1,1 @@
+../modular-docs/modular-docs-manual/common-content/attributes.adoc

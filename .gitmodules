@@ -1,0 +1,3 @@
+[submodule "modular-docs"]
+	path = modular-docs
+	url = https://github.com/redhat-documentation/modular-docs
