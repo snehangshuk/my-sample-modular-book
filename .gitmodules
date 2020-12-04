@@ -1,3 +1,4 @@
 [submodule "shared-docs"]
 	path = shared-docs
 	url = https://github.com/snehangshuk/shared-docs.git
+	branch = main
