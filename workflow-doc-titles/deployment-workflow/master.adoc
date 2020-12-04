@@ -3,11 +3,19 @@
 
 :BOOK-ENT:
 
-include::_artifacts/document_attributes.adoc[]
+include::_artifacts/document-attributes.adoc[]
 :doctype: book
 
 
 // Book Title
 = Deployment Workflow Documentation Guide
 
+// Assembly includes
 include::assemblies/assembly_deploying-your-multiproduct-locally.adoc[]
+
+// Versioning Info
+include::_artifacts/versioning-information.adoc[]
+
+// Contact Info
+include::_artifacts/author-group.adoc[]
+
