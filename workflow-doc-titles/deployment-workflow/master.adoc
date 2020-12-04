@@ -1,0 +1,13 @@
+// The master.adoc file for The Deployment Workflow Documentation
+
+
+:BOOK-ENT:
+include::_artifacts/attributes.adoc[]
+:doctype: book
+:imagesdir: _images
+
+
+// Book Title
+= Deployment Workflow Documentation Guide
+
+include::assemblies/assembly_deploying-your-multiproduct-locally.adoc[]

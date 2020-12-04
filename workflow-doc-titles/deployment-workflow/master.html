@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>Untitled</title>
+<title>Deployment Workflow Documentation Guide</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -436,15 +436,250 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 </head>
-<body class="article">
+<body class="book toc2 toc-left">
 <div id="header">
+<h1>Deployment Workflow Documentation Guide</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel0">
+<li><a href="#assembly_deploying-your-multiproduct-locally">Deploying your Multiproduct Locally</a>
+<ul class="sectlevel1">
+<li><a href="#_prerequisites">1. Prerequisites</a></li>
+<li><a href="#con_understanding-multiproduct-structure_assembly_deploying-your-multiproduct-locally">2. Understanding Multiproduct Structure</a></li>
+<li><a href="#proc_deploying-locally_assembly_deploying-your-multiproduct-locally">3. Deploying Locally</a></li>
+<li><a href="#ref_creating-multiproduct_assembly_deploying-your-multiproduct-locally">4. Creating Multiproduct</a></li>
+<li><a href="#_additional_resources">5. Additional resources</a></li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="content">
-
+<h1 id="assembly_deploying-your-multiproduct-locally" class="sect0"><a class="anchor" href="#assembly_deploying-your-multiproduct-locally"></a><a class="link" href="#assembly_deploying-your-multiproduct-locally">Deploying your Multiproduct Locally</a></h1>
+<div class="openblock partintro">
+<div class="content">
+<div class="paragraph">
+<p>LinkedIn Deployment (LID) is the toolset that enables deployment for Desktop development, PCx, and production deployments across all our fabrics. It includes the definition and the implementation of fabrics and fabric groups.
+The lifecycle for Deployment and Topology starts at Product creation time.
+The Topology information that is defined for your desktop deployments will be used to provide the basis for production deployments.</p>
+</div>
+<div class="paragraph _abstract">
+<p>This paragraph is the assembly introduction. It explains what the user will accomplish by working through the modules in the assembly and sets the context for the user story the assembly is based on. The text that immediately follows the <code>[role="_abstract"]</code> tag is used for search metadata.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_prerequisites"><a class="anchor" href="#_prerequisites"></a><a class="link" href="#_prerequisites">1. Prerequisites</a></h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Ensure that you have LinkedIn Engineering Tools installed.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="con_understanding-multiproduct-structure_assembly_deploying-your-multiproduct-locally"><a class="anchor" href="#con_understanding-multiproduct-structure_assembly_deploying-your-multiproduct-locally"></a><a class="link" href="#con_understanding-multiproduct-structure_assembly_deploying-your-multiproduct-locally">2. Understanding Multiproduct Structure</a></h2>
+<div class="sectionbody">
+<div class="paragraph _abstract">
+<p>Write a short introductory paragraph that provides an overview of the module. The text that immediately follows the <code>[role="_abstract"]</code> tag is used for search metadata.</p>
+</div>
+<div class="paragraph">
+<p>The contents of a concept module give the user descriptions and explanations needed to understand and use a product.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Look at nouns and noun phrases in related procedure modules and assemblies to find the concepts to explain to users.</p>
+</li>
+<li>
+<p>Explain only things that are visible to users. Even if a concept is interesting, it probably does not require explanation if it is not visible to users.</p>
+</li>
+<li>
+<p>Do not include any instructions to perform an action, such as executing a command. Action items belong in procedure modules.</p>
+</li>
+</ul>
+</div>
+<div class="ulist _additional-resources">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p>A bulleted list of links to other material closely related to the contents of the concept module.</p>
+</li>
+<li>
+<p>Currently, modules cannot include xrefs, so you cannot include links to other content in your collection. If you need to link to another assembly, add the xref to the assembly that includes this module.</p>
+</li>
+<li>
+<p>For more details on writing concept modules, see the <a href="https://github.com/redhat-documentation/modular-docs#modular-documentation-reference-guide">Modular Documentation Reference Guide</a>.</p>
+</li>
+<li>
+<p>Use a consistent system for file names, IDs, and titles. For tips, see <em>Anchor Names and File Names</em> in <a href="https://github.com/redhat-documentation/modular-docs#modular-documentation-reference-guide">Modular Documentation Reference Guide</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="proc_deploying-locally_assembly_deploying-your-multiproduct-locally"><a class="anchor" href="#proc_deploying-locally_assembly_deploying-your-multiproduct-locally"></a><a class="link" href="#proc_deploying-locally_assembly_deploying-your-multiproduct-locally">3. Deploying Locally</a></h2>
+<div class="sectionbody">
+<div class="paragraph _abstract">
+<p>Write a short introductory paragraph that provides an overview of the module. Procedure modules should include  the steps that users perform and address user motivation.The text that immediately follows the <code>[role="_abstract"]</code> tag is used for search metadata.</p>
+</div>
+<div class="ulist">
+<div class="title">Prerequisites</div>
+<ul>
+<li>
+<p>A bulleted list of conditions that must be satisfied before the user starts following this module.</p>
+</li>
+<li>
+<p>You can also link to other modules or assemblies the user must follow before starting this module.</p>
+</li>
+<li>
+<p>Delete the section title and bullets if the module has no prerequisites.</p>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">Procedure</div>
+<ol class="arabic">
+<li>
+<p>Start each step with an active verb.</p>
+</li>
+<li>
+<p>Include one command or action for each step with the exception of simple follow-step, for example:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Do this thing and then select <strong>Next</strong>.</p>
+</li>
+<li>
+<p>Do this other thing and then select <strong>Next</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Use an unnumbered bullet (*) if the procedure includes only one step.</p>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<div class="title">Verification steps</div>
+<ol class="arabic">
+<li>
+<p>Start each step with an active verb.</p>
+</li>
+<li>
+<p>Include one command or action per step.</p>
+</li>
+<li>
+<p>Use an unnumbered bullet (*) if the procedure includes only one step.</p>
+</li>
+</ol>
+</div>
+<div class="ulist _additional-resources">
+<div class="title">Additional resources</div>
+<ul>
+<li>
+<p>A bulleted list of links to other material closely related to the contents of the procedure module.</p>
+</li>
+<li>
+<p>Currently, modules cannot include xrefs, so you cannot include links to other content in your collection. If you need to link to another assembly, add the xref to the assembly that includes this module.</p>
+</li>
+<li>
+<p>For more details on writing procedure modules, see the <a href="https://github.com/redhat-documentation/modular-docs#modular-documentation-reference-guide">Modular Documentation Reference Guide</a>.</p>
+</li>
+<li>
+<p>Use a consistent system for file names, IDs, and titles. For tips, see <em>Anchor Names and File Names</em> in <a href="https://github.com/redhat-documentation/modular-docs#modular-documentation-reference-guide">Modular Documentation Reference Guide</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ref_creating-multiproduct_assembly_deploying-your-multiproduct-locally"><a class="anchor" href="#ref_creating-multiproduct_assembly_deploying-your-multiproduct-locally"></a><a class="link" href="#ref_creating-multiproduct_assembly_deploying-your-multiproduct-locally">4. Creating Multiproduct</a></h2>
+<div class="sectionbody">
+<div class="paragraph _abstract">
+<p>Write a short introductory paragraph that provides an overview of the module. The text that immediately follows the <code>[role="_abstract"]</code> tag is used for search metadata. A reference module provides data that users might want to look up, but do not need to remember.
+It has a very strict structure, often in the form of a list or a table.
+A well-organized reference module enables users to scan it quickly to find the details they want.
+AsciiDoc markup to consider for reference data:</p>
+</div>
+<div class="ulist">
+<div class="title">Unordered list</div>
+<ul>
+<li>
+<p>For more details on writing reference modules, see the <a href="https://github.com/redhat-documentation/modular-docs#modular-documentation-reference-guide">Modular Documentation Reference Guide</a>.</p>
+</li>
+<li>
+<p>Use a consistent system for file names, IDs, and titles.
+For tips, see <em>Anchor Names and File Names</em> in <a href="https://github.com/redhat-documentation/modular-docs#modular-documentation-reference-guide">Modular Documentation Reference Guide</a>.</p>
+</li>
+</ul>
+</div>
+<div class="dlist">
+<div class="title">Labeled list</div>
+<dl>
+<dt class="hdlist1">Term 1</dt>
+<dd>
+<p>Definition</p>
+</dd>
+<dt class="hdlist1">Term 2</dt>
+<dd>
+<p>Definition</p>
+</dd>
+</dl>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Table</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Column 1</th>
+<th class="tableblock halign-left valign-top">Column 2</th>
+<th class="tableblock halign-left valign-top">Column 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Row 1, column 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Row 1, column 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Row 1, column 3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Row 2, column 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Row 2, column 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Row 2, column 3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1 _additional-resources">
+<h2 id="_additional_resources"><a class="anchor" href="#_additional_resources"></a><a class="link" href="#_additional_resources">5. Additional resources</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>(or Next steps)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>For more details on LID, see the <a href="https://iwww.corp.linkedin.com/wiki/cf/pages/viewpage.action?pageId=48094297">LinkedIn Deployment</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-12-03 14:56:38 +0530
+Last updated 2020-12-04 10:34:42 +0530
 </div>
 </div>
 </body>
