@@ -13,7 +13,6 @@ before_install:
 
 script:
   - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor --destination-dir=/documents/output --out-file=index.html workflow-doc-titles/deployment-workflow/master.adoc
-  - cp -r workflow-doc-titles/deployment-workflow/_images/  workflow-doc-titles/deployment-workflow/_artifacts/ output/
 
 after_error:
   - docker logs asciidoc-to-html
