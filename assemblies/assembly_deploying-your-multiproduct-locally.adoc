@@ -65,13 +65,13 @@ include::modules/TEMPLATE_PROCEDURE_reference-material.adoc[leveloffset=2]
 Optional. Delete if not used.
 ////
 
-include::modules/local-deployment/ref_creating-multiproduct.adoc[leveloffset=+1]
+include::modules/local-deployment/ref_creating-multiproduct.adoc[leveloffset=+2]
 
 //Versioning Info
-include::_artifacts/versioning-information.adoc[]
+include::../_artifacts/versioning-information.adoc[]
 
 //Contact Info
-include::_artifacts/author-group.adoc[]
+include::../_artifacts/author-group.adoc[]
 
 ////
 Restore the context to what it was before this assembly.

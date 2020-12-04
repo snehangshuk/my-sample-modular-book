@@ -1,7 +1,8 @@
-// The master.adoc file for The Deployment Workflow Documentation
+// The master.adoc file for Deployment Workflow Documentation
 
 
 :BOOK-ENT:
+
 include::_artifacts/document_attributes.adoc[]
 :doctype: book
 
