@@ -3,7 +3,7 @@
 
 :BOOK-ENT:
 
-include::_artifacts/document-attributes.adoc[]
+include::_artifacts/common-content/document-attributes.adoc[]
 :doctype: book
 
 
