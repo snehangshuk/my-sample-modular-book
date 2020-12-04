@@ -1,0 +1,1 @@
+../shared-docs/common-content/version-information.adoc

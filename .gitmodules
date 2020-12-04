@@ -1,3 +1,3 @@
-[submodule "modular-docs"]
-	path = modular-docs
-	url = https://github.com/redhat-documentation/modular-docs
+[submodule "shared-docs"]
+	path = shared-docs
+	url = https://github.com/snehangshuk/shared-docs.git

@@ -38,25 +38,17 @@ The `context` attribute enables module reuse. Every module ID includes {context}
 LinkedIn Deployment (LID) is the toolset that enables deployment for Desktop development, PCx, and production deployments across all our fabrics. It includes the definition and the implementation of fabrics and fabric groups.
 The lifecycle for Deployment and Topology starts at Product creation time.
 The Topology information that is defined for your desktop deployments will be used to provide the basis for production deployments. 
-[role="_abstract"]
-This paragraph is the assembly introduction. It explains what the user will accomplish by working through the modules in the assembly and sets the context for the user story the assembly is based on. The text that immediately follows the `[role="_abstract"]` tag is used for search metadata.
 
 == Prerequisites
 
 
 * Ensure that you have LinkedIn Engineering Tools installed.
 
-////
-The following include statements pull in the module files that comprise the assembly. Include any combination of concept, procedure, or reference modules required to cover the user story. You can also include other assemblies.
-
-include::modules/TEMPLATE_CONCEPT_explaining_a_concept.adoc[leveloffset=+1]
-////
 
 include::modules/local-deployment/con_understanding-multiproduct-structure.adoc[leveloffset=+1]
 
 include::modules/local-deployment/proc_deploying-locally.adoc[leveloffset=+1]
 
-include::modules/local-deployment/ref_creating-multiproduct.adoc[leveloffset=+1]
 
 ////
 [leveloffset=+1] ensures that when a module title is a level 1 heading (= Title), the heading will be interpreted as a level-2 heading (== Title) in the assembly. Use [leveloffset=+2] and [leveloffset=+3] to nest modules in an assembly.
@@ -68,13 +60,18 @@ include::modules/TEMPLATE_PROCEDURE_reference-material.adoc[leveloffset=2]
 
 [role="_additional-resources"]
 == Additional resources
-(or Next steps)
 
 ////
 Optional. Delete if not used.
 ////
 
-* For more details on LID, see the link:https://iwww.corp.linkedin.com/wiki/cf/pages/viewpage.action?pageId=48094297[LinkedIn Deployment].
+include::modules/local-deployment/ref_creating-multiproduct.adoc[leveloffset=+1]
+
+//Versioning Info
+include::_artifacts/versioning-information.adoc[]
+
+//Contact Info
+include::_artifacts/author-group.adoc[]
 
 ////
 Restore the context to what it was before this assembly.
