@@ -1,1 +1,0 @@
-../shared-docs/common-content/document-attributes.adoc

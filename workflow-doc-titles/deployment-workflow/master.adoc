@@ -14,8 +14,10 @@ include::_artifacts/document-attributes.adoc[]
 include::assemblies/assembly_deploying-your-multiproduct-locally.adoc[]
 
 // Versioning Info
-include::_artifacts/version-information.adoc[]
+include::_artifacts/common-content/version-information.adoc[]
 
 // Contact Info
-include::_artifacts/author-group.adoc[]
+include::_artifacts/common-content/author-group.adoc[]
 
+// Legal Notice
+include::_artifacts/common-content/legal-notice.adoc[]
