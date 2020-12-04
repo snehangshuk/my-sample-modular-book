@@ -14,7 +14,7 @@ include::_artifacts/document-attributes.adoc[]
 include::assemblies/assembly_deploying-your-multiproduct-locally.adoc[]
 
 // Versioning Info
-include::_artifacts/versioning-information.adoc[]
+include::_artifacts/version-information.adoc[]
 
 // Contact Info
 include::_artifacts/author-group.adoc[]
