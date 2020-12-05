@@ -35,9 +35,8 @@ If the assembly covers a task, start the title with a verb in the gerund form, s
 ////
 The `context` attribute enables module reuse. Every module ID includes {context}, which ensures that the module has a unique ID so you can include it multiple times in the same guide.
 ////
-LinkedIn Deployment (LID) is the toolset that enables deployment for Desktop development, PCx, and production deployments across all our fabrics. It includes the definition and the implementation of fabrics and fabric groups.
-The lifecycle for Deployment and Topology starts at Product creation time.
-The Topology information that is defined for your desktop deployments will be used to provide the basis for production deployments. 
+
+As a developer at LinkedIn, you can deploy your multiproduct locally before pushing it to EI and Prod.
 
 == Prerequisites
 
