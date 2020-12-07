@@ -36,7 +36,7 @@ If the assembly covers a task, start the title with a verb in the gerund form, s
 The `context` attribute enables module reuse. Every module ID includes {context}, which ensures that the module has a unique ID so you can include it multiple times in the same guide.
 ////
 
-As a developer at LinkedIn, you can deploy your multiproduct locally before pushing it to EI and Prod.
+As a developer at LinkedIn, you can deploy your multiproduct locally before pushing it to EI and Prod.This document describes the workflow of deployment of multiproduct in LinkedIn's CI/CD pipeline. The title focuses on: local deployment, configuring local environment to upload the service to staging, create custom workflow, configure EKG rules, blah blah.
 
 == Prerequisites
 
