@@ -10,9 +10,9 @@ Welcome to Deployment Workflow Documentation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    con_understanding-multiproduct-structure.md
-    proc_deploying-locally.md
-    ref_creating-multiproduct.md
+.. include:: con_understanding-multiproduct-structure.md
+.. include:: proc_deploying-locally.md
+.. include:: ref_creating-multiproduct.md
 
 Indices and tables
 ==================
