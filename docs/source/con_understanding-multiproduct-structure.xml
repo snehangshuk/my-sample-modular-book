@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+
+<article lang="en">
+<articleinfo>
+    <title>Understanding Multiproduct Structure</title>
+</articleinfo>
+<simpara>The contents of a concept module give the user descriptions and explanations needed to understand and use a product.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>
+Look at nouns and noun phrases in related procedure modules and assemblies to find the concepts to explain to users.
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Explain only things that are visible to users. Even if a concept is interesting, it probably does not require explanation if it is not visible to users.
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Do not include any instructions to perform an action, such as executing a command. Action items belong in procedure modules.
+</simpara>
+</listitem>
+</itemizedlist>
+<itemizedlist role="_additional-resources"><title>Additional resources</title>
+<listitem>
+<simpara>
+A bulleted list of links to other material closely related to the contents of the concept module.
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+Currently, modules cannot include xrefs, so you cannot include links to other content in your collection. If you need to link to another assembly, add the xref to the assembly that includes this module.
+</simpara>
+</listitem>
+</itemizedlist>
+</article>
