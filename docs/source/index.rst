@@ -7,12 +7,9 @@ Welcome to Deployment Workflow documentation!
 =============================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
    
-   Understating Local Deployment <concept.rst>
-   Deployiong Locally <procedure.rst>
-   Referances <referances.rst>
+   assembly1.rst
 
 Indices and tables
 ==================

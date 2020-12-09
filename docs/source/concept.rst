@@ -1,6 +1,9 @@
-=============================
+.. _concept-module:
+
+*****************************
 Understading Local Deployment
-=============================
+*****************************
+
 The contents of a concept module give the user descriptions and
 explanations needed to understand and use a product.
 
